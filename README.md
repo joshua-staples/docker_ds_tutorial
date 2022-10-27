@@ -45,11 +45,11 @@ We've already used the ```docker run``` command. This command runs the image spe
 
 ### Push
 
-If you want to make your own dockerhub account you can push any images your make using the ```docker push [image_name]``` command. (this is beyond the scope of this tutorial.)
+If you want to make your own dockerhub account you can push any images your make using the ```docker push image_name``` command. (this is beyond the scope of this tutorial.)
 
 ### Pull
 
-The ```docker pull [image_name]``` command allows you to pull any prebuilt image from dockerhub. 
+The ```docker pull image_name``` command allows you to pull any prebuilt image from dockerhub. 
 
 This is useful if you already know the language your project will be in, as you can then just pull an image that contains that language. Popular images can be found by browsing [dockerhub](https://hub.docker.com/). 
 
