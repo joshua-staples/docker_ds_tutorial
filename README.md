@@ -14,6 +14,10 @@ docker version
 ```
 docker run hello-world
 ```
+To show all running containers:
+```
+docker ps -a
+```
 
 ## Baisc Workflow
 
