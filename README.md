@@ -1,7 +1,7 @@
 ## Prerequisites:
 
 - MacOS, Linux, Windows
-- ![Docker Desktop](https://www.docker.com/products/docker-desktop/) (once installed it can run all of our commands, or we can use the CLI)
+- ![Docker Desktop](https://www.docker.com/products/docker-desktop/)(once installed it can run all of our commands, or we can use the CLI)
 
 Check install:
 
