@@ -24,6 +24,8 @@ docker run docker/whalesay cowsay Hello there!
 ```
 If the docker image doesn't exist locally, then docker will automatically pull it from [dockerhub](https://hub.docker.com/)
 
+[Here](https://hub.docker.com/r/docker/whalesay) are some more details on whalesay.
+
 ## Baisc Workflow
 
 Build, run, push, pull
