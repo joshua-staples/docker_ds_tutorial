@@ -41,7 +41,7 @@ docker images
 
 ### Run
 
-We've already used the ```docker run``` command. This command runs the image specified. 
+We've already used the ```docker run``` command. This command runs the image specified. An image can either run a specified file it contains (a deployed app, like the examples above) or it can open a web-server for development, which is what we will be doing. 
 
 ### Push
 
