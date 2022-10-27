@@ -1,3 +1,7 @@
+## What is Docker?
+
+Docker is a way of running virtual machines with specific coding packages/libraries pre-installed in them. Unlike a virtual environment which can have different packages from MacOS, to Windows, or Linux, Docker creates its own OS (usually linux) with all the packages installed, so that anyone on any OS can run your program or workspace. 
+
 ## Prerequisites:
 
 - MacOS, Linux, Windows
