@@ -1,4 +1,4 @@
-## Pre-requisits:
+## Prerequisites:
 
 - MacOS, Linux, Windows
 - Docker Desktop
