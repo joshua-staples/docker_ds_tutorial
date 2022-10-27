@@ -63,4 +63,4 @@ https://hub.docker.com/r/jupyter/all-spark-notebook
 
 ## Sharing Work
 
-You can either use ```docker save image_name``` for an image or ```docker export container_name``` for a container. This will output a tar (compressed) file to standard output, you can save this to a .tar file by using ```'container_name' > dk.container_name.latest.tar```. Then you can use ```docker load file``` or ```docker import file``` on a different machine.
+You can either use ```docker save image_name``` for an image or ```docker export container_name``` for a container. This will output a tar (compressed) file to standard output, you can save this to a .tar file by piping ```docker export container_name > dk.container_name.latest.tar```. Then you can use ```docker load file``` or ```docker import file``` on a different machine.
