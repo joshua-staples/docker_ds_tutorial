@@ -28,7 +28,7 @@ If the docker image doesn't exist locally, then docker will automatically pull i
 
 ## Baisc Workflow
 
-Build, run, push, pull
+Build, run, push, pull.
 
 ### Build
 
