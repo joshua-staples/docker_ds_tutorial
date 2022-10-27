@@ -3,6 +3,15 @@
 - MacOS, Linux, Windows
 - Docker Desktop
 
+Check install:
+
+```
+docker ps 
+```
+```
+docker run hello-world
+```
+
 ## Baisc Workflow
 
 Build, run, push, pull
