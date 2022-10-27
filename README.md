@@ -22,7 +22,7 @@ One last example:
 ```
 docker run docker/whalesay cowsay Hello there!
 ```
-If the docker image doesn't exist locally, then docker will automatically pull it from [dockerhub](dockerhub.com)
+If the docker image doesn't exist locally, then docker will automatically pull it from [dockerhub](https://hub.docker.com/)
 
 ## Baisc Workflow
 
