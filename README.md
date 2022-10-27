@@ -55,9 +55,10 @@ This is useful if you already know the language your project will be in, as you 
 
 [Additional Reading](https://medium.com/@deepakshakya/beginners-guide-to-use-docker-build-run-push-and-pull-4a132c094d75)
 
-## Image
+## All-Spark-Notebook Image
 
-https://hub.docker.com/r/jupyter/all-spark-notebook
+In our tutorial we will use the [all-spark-notebook image](https://hub.docker.com/r/jupyter/all-spark-notebook). This image contains Python, R, Spark, Jupyter, Pandas, and many other useful data-science libraries.  
+
 
 ## Container
 
