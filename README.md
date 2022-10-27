@@ -9,6 +9,9 @@ Check install:
 docker ps 
 ```
 ```
+docker version
+```
+```
 docker run hello-world
 ```
 
