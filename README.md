@@ -32,9 +32,9 @@ Build, run, push, pull
 
 ### Build
 
-Every docker image we used above was built by someone. The build command is used to build your own custom image based on a Dockerfile. 
+Every docker image we used above was built by someone. The build command is used to build your own custom image based on a Dockerfile. Building your own image is not difficult, but it is an advanced topic that will not be covered in this tutorial, we will be using pre-built images. 
 
-To see all of the images you have downloaded use this command:
+You can see all of the images you have downloaded locally using this command:
 ```
 docker images
 ```
