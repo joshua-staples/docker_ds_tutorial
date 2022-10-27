@@ -14,7 +14,7 @@ docker version
 ```
 docker run hello-world
 ```
-To show all running containers:
+To show all running containers (the -a here is a tag meaning 'all'):
 ```
 docker ps -a
 ```
