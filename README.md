@@ -32,7 +32,7 @@ If the docker image doesn't exist locally, then docker will automatically pull i
 
 [Here](https://hub.docker.com/r/docker/whalesay) are some more details on whalesay.
 
-## Baisc Workflow
+## Basic Workflow
 
 Build, run, push, pull.
 
