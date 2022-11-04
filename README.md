@@ -6,6 +6,16 @@
 
 ## Installation:
 
+MacOS/Linux:
+
+- Download [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- Go through the Docker Desktop installation process
+- Open Docker Desktop and terminal
+- Continue to Check Install session
+
+Windows:
+
+
 ## Check Install:
 
 ```
