@@ -96,15 +96,15 @@ In our tutorial we will use the [all-spark-notebook image](https://hub.docker.co
 1. Navigate to the directory you want to use your notebook in.
 2. In a command prompt (or terminal) run ```docker pull jupyter/all-spark-notebook```
 3. Run:
-```docker run -it --rm -p 4040:4040 -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter/all-spark-notebook``` (MacOS/Linux)
+```docker run -it --rm -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter/all-spark-notebook``` (MacOS/Linux)
 3. Run:
-```docker run -it --rm -p 4040:4040 -p 8888:8888 -v "$(pwd):/home/jovyan/work" jupyter/all-spark-notebook``` (Windows)
+```docker run -it --rm -p 8888:8888 -v "$(pwd):/home/jovyan/work" jupyter/all-spark-notebook``` (Windows)
 
 The ```-it``` flag instructs Docker to allocate a pseudo-TTY connected to the container’s stdin; creating an interactive bash shell in the container. I remeber this as 'integrated terminal'.
 
 The ```--rm``` flag automatically removes the container when it exits.
 
-The ```-p 4040:4040 -p 8888:8888``` flag is telling docker to bind the port 4040 to your local machines port 4040 and the same for 8888. 4040 handles the server connection, while 8888 is the user interface of Jupyter.
+The ```-p 8888:8888``` flag is telling docker to bind the port 8888 of the container to you local port 8888.
 
 The ```-v``` flag mounts the current working directory into the container. We are telling it to mount ```"${PWD}"``` (which gets our current directory) into the notebooks ```/home/jovyan/work``` directory. This allows the container to save the work being done in the container to a local directory as well.
 
