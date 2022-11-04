@@ -82,7 +82,13 @@ The ```-v``` flag mounts the current working directory into the container. We ar
 
 If you close a server after working and then come back and start a new server your previous work should still be there because of the -v flag.
 
+All of this can also be done from the Docker Desktop app. You can also remove the --rm command if you do not want the container to be cleared after every run. 
+
 ## Container
+
+If you have already created a container using ```docker run [*flags] image-name``` then you can start one by using the ```docker start container-name``` command. 
+
+You can use the ```docker container ls -a``` command to view all containers (not just running ones) if you forget the container name.
 
 ## Sharing Work
 
