@@ -68,6 +68,15 @@ This is useful if you already know the language your project will be in, as you 
 
 In our tutorial we will use the [all-spark-notebook image](https://hub.docker.com/r/jupyter/all-spark-notebook). This image contains Python, R, Spark, Jupyter, Pandas, and many other useful data-science libraries.  
 
+1. Navigate to the directory you want to use your notebook in.
+2. Run:
+```docker run -it --rm -p 4040:4040 -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter/all-spark-notebook```
+
+The -it instructs Docker to allocate a pseudo-TTY connected to the container’s stdin; creating an interactive bash shell in the container.
+The --rm automatically remove the container when it exits.
+The -p 4040:4040 -p 8888:8888 flag is telling docker to bind the port 4040 to your local machines port 4040 and the same for 8888. 4040 handles the server connection, while 8888 is the user interface of Jupyter.
+The -v flag mounts the current working directory into the container. We are telling it to mount "${PWD}" (which gets our current directory) into the notebooks /home/jovyan/work directory. This allows the container to save the work being done in the container to a local directory as well.
+If you close a server after working and then come back and start a new server your previous work should still be there because of the -v flag.
 
 ## Container
 
