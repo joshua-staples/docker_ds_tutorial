@@ -6,7 +6,7 @@
 
 ## Installation:
 
-MacOS/Linux:
+MacOS:
 
 - Download [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - Go through the Docker Desktop installation process
@@ -20,6 +20,15 @@ Windows:
 - Go through the Docker Desktop installation process
 - Open Docker Desktop and terminal
 - Continue to Check Install session
+
+Linux:
+
+- Run 
+```
+sudo snap install docker 
+```
+in the terminal.
+
 
 ## Check Install:
 
