@@ -8,13 +8,12 @@
 ## Installation:
 
 MacOS:
-
 - Download [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - Go through the Docker Desktop installation process
 - Open Docker Desktop and terminal
 - Continue to Check Install
-Windows:
 
+Windows:
 - Open Powershell as admin
 - Run ```wsl --install`` in powershell
 - Install [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=us)
