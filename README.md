@@ -3,6 +3,7 @@
 - MacOS, Linux, Windows
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) (once installed it can run all of our commands, or we can use the CLI)
 - WSL2 if on Windows
+- VS Code
 
 ## Installation:
 
