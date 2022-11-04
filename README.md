@@ -12,8 +12,7 @@ MacOS:
 - Download [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - Go through the Docker Desktop installation process
 - Open Docker Desktop and terminal
-- Continue to Check Install session
-
+- Continue to Check Install
 Windows:
 
 - Open Powershell as admin
@@ -23,7 +22,7 @@ Windows:
 - Download [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - Go through the Docker Desktop installation process
 - Open Docker Desktop
-- Continue to Check Install session (run commands in your Windows Terminal)
+- Continue to Check Install (run commands in your Windows Terminal)
 
 Linux:
 
@@ -31,6 +30,7 @@ Linux:
 ```
 sudo snap install docker 
 ```
+- Continue to Check Install
 
 ## Check Install:
 
