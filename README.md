@@ -70,7 +70,9 @@ In our tutorial we will use the [all-spark-notebook image](https://hub.docker.co
 
 1. Navigate to the directory you want to use your notebook in.
 2. Run:
-```docker run -it --rm -p 4040:4040 -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter/all-spark-notebook```
+```docker run -it --rm -p 4040:4040 -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter/all-spark-notebook``` (MacOS/Linux)
+3. Run:
+```docker run -it --rm -p 4040:4040 -p 8888:8888 -v "$(PWD)":/home/jovyan/work jupyter/all-spark-notebook``` (Windows)
 
 The ```-it``` flag instructs Docker to allocate a pseudo-TTY connected to the container’s stdin; creating an interactive bash shell in the container. I remeber this as 'integrated terminal'.
 
