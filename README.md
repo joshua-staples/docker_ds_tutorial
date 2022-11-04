@@ -92,7 +92,8 @@ This is useful if you already know the language your project will be in, as you 
 In our tutorial we will use the [all-spark-notebook image](https://hub.docker.com/r/jupyter/all-spark-notebook). This image contains Python, R, Spark, Jupyter, Pandas, and many other useful data-science libraries.  
 
 1. Navigate to the directory you want to use your notebook in.
-2. Run:
+2. In a command prompt (or terminal) run ```docker pull jupyter/all-spark-notebook```
+3. Run:
 ```docker run -it --rm -p 4040:4040 -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter/all-spark-notebook``` (MacOS/Linux)
 3. Run:
 ```docker run -it --rm -p 4040:4040 -p 8888:8888 -v "$(PWD)":/home/jovyan/work jupyter/all-spark-notebook``` (Windows)
