@@ -113,7 +113,9 @@ All of this can also be done from the Docker Desktop app. You can also remove th
 
 ## Building Our Own Image
 
-
+- Open VS Code
+- Open the folder you want to code in
+- 
 ## Container
 
 If you have already created a container using ```docker run [*flags] image-name``` then you can start one by using the ```docker start container-name``` command. 
