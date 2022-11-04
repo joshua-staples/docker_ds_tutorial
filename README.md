@@ -1,9 +1,3 @@
-## What is Docker?
-
-Docker is a way of running containers with specific coding packages/libraries pre-installed in them. Unlike a virtual environment which can have different packages from MacOS, to Windows, or Linux, Docker creates its own OS (usually linux) with all the packages installed, so that anyone, on any OS, can run your program or workspace. 
-
-The major difference between a VM (vitual machine) and a Docker Container is that a container only runs one process, and once that process exits, the container exits. A VM can run many processes, as it is a virtual operating system. Because of this, a Docker container is very lightweight compared to a full VM.
-
 ## Prerequisites:
 
 - MacOS, Linux, Windows
@@ -34,6 +28,12 @@ docker run docker/whalesay cowsay Hello there!
 If the docker image doesn't exist locally, then docker will automatically pull it from [dockerhub](https://hub.docker.com/)
 
 [Here](https://hub.docker.com/r/docker/whalesay) are some more details on whalesay.
+
+## What is Docker?
+
+Docker is a way of running containers with specific coding packages/libraries pre-installed in them. Unlike a virtual environment which can have different packages from MacOS, to Windows, or Linux, Docker creates its own OS (usually linux) with all the packages installed, so that anyone, on any OS, can run your program or workspace. 
+
+The major difference between a VM (vitual machine) and a Docker Container is that a container only runs one process, and once that process exits, the container exits. A VM can run many processes, as it is a virtual operating system. Because of this, a Docker container is very lightweight compared to a full VM.
 
 ## Basic Workflow
 
