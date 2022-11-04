@@ -15,7 +15,7 @@ MacOS/Linux:
 
 Windows:
 
-- Make sure [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) and virtualization are enabled
+- Make sure [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) and virtualization are enabled (run in Powershell)
 - Download [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - Go through the Docker Desktop installation process
 - Open Docker Desktop and terminal
