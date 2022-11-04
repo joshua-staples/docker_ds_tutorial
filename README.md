@@ -41,7 +41,7 @@ Build, run, push, pull.
 
 ### Build
 
-Every docker image we used above was built by someone. The build command is used to build your own custom image based on a Dockerfile. Building your own image is not difficult, but it is an advanced topic that will not be covered in this tutorial, we will be using pre-built images. 
+Every docker image we used above was built by someone. The build command is used to build your own custom image based on a Dockerfile. 
 
 You can see all of the images you have downloaded locally using this command:
 ```
@@ -83,6 +83,9 @@ The ```-v``` flag mounts the current working directory into the container. We ar
 If you close a server after working and then come back and start a new server your previous work should still be there because of the -v flag.
 
 All of this can also be done from the Docker Desktop app. You can also remove the --rm command if you do not want the container to be cleared after every run. 
+
+## Building Our Own Image
+
 
 ## Container
 
