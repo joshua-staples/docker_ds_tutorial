@@ -72,9 +72,9 @@ In our tutorial we will use the [all-spark-notebook image](https://hub.docker.co
 2. Run:
 ```docker run -it --rm -p 4040:4040 -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter/all-spark-notebook```
 
-The ```-it``` flag instructs Docker to allocate a pseudo-TTY connected to the container’s stdin; creating an interactive bash shell in the container.
+The ```-it``` flag instructs Docker to allocate a pseudo-TTY connected to the container’s stdin; creating an interactive bash shell in the container. I remeber this as 'integrated terminal'.
 
-The ```--rm``` flag automatically remove the container when it exits.
+The ```--rm``` flag automatically removes the container when it exits.
 
 The ```-p 4040:4040 -p 8888:8888``` flag is telling docker to bind the port 4040 to your local machines port 4040 and the same for 8888. 4040 handles the server connection, while 8888 is the user interface of Jupyter.
 
