@@ -16,11 +16,14 @@ MacOS:
 
 Windows:
 
-- Make sure [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) and virtualization are enabled (run in Powershell)
+- Open Powershell as admin
+- Run ```wsl --install`` in powershell
+- Install [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=us)
+- Open Windows Terminal
 - Download [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - Go through the Docker Desktop installation process
-- Open Docker Desktop and terminal
-- Continue to Check Install session
+- Open Docker Desktop
+- Continue to Check Install session (run commands in your Windows Terminal)
 
 Linux:
 
@@ -28,7 +31,6 @@ Linux:
 ```
 sudo snap install docker 
 ```
-
 
 ## Check Install:
 
