@@ -23,11 +23,10 @@ Windows:
 
 Linux:
 
-- Run 
+- Run this command in the terminal:
 ```
 sudo snap install docker 
 ```
-in the terminal.
 
 
 ## Check Install:
