@@ -74,6 +74,8 @@ Build, run, push, pull.
 **Container**:
 "A Docker container is an open source software development platform. Its main benefit is to package applications in containers, allowing them to be portable to any system running a Linux or Windows operating system (OS)."[More Reading](https://www.sdxcentral.com/cloud/containers/definitions/what-is-docker-container/#:~:text=A%20Docker%20container%20is%20an,a%20virtual%20machine%20(VM).)
 
+You run an image to create a container. You do coding work inside of a container.
+
 ### Build
 
 Every docker image we used above was built by someone. The build command is used to build your own custom image based on a Dockerfile. 
