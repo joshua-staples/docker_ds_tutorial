@@ -66,6 +66,14 @@ The major difference between a VM (vitual machine) and a Docker Container is tha
 
 Build, run, push, pull.
 
+### Important Terms
+
+**Image**:
+"A Docker image is a file used to execute code in a Docker container. Docker images act as a set of instructions to build a Docker container, like a template. Docker images also act as the starting point when using Docker." [More Reading](https://www.techtarget.com/searchitoperations/definition/Docker-image#:~:text=A%20Docker%20image%20is%20a,virtual%20machine%20(VM)%20environments.)
+
+**Container**:
+"A Docker container is an open source software development platform. Its main benefit is to package applications in containers, allowing them to be portable to any system running a Linux or Windows operating system (OS)."[More Reading](https://www.sdxcentral.com/cloud/containers/definitions/what-is-docker-container/#:~:text=A%20Docker%20container%20is%20an,a%20virtual%20machine%20(VM).)
+
 ### Build
 
 Every docker image we used above was built by someone. The build command is used to build your own custom image based on a Dockerfile. 
