@@ -127,7 +127,7 @@ r = requests.get('https://api.example.com/test')
 r.status_code 
 ```
 - Create a file named ```Dockerfile```
-- Paste the following in the Dockefile:
+  - Paste the following in the Dockefile:
 ```
 FROM python:3
 ADD requirements.txt /
