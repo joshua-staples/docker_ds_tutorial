@@ -116,7 +116,16 @@ All of this can also be done from the Docker Desktop app. You can also remove th
 
 - Open VS Code
 - Open the folder you want to code in
-- 
+- Create a ```requirements.txt``` file
+  - In the file paste ```requests==2.27.1```
+- Create a python file ```main.py```
+  - Paste the code:
+```
+import requests
+
+r = requests.get('https://api.example.com/test')
+r.status_code 
+```
 ## Container
 
 If you have already created a container using ```docker run [*flags] image-name``` then you can start one by using the ```docker start container-name``` command. 
