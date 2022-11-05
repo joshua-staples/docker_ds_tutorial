@@ -119,15 +119,17 @@ All of this can also be done from the Docker Desktop app. You can also remove th
 - Open VS Code
 - Open the folder you want to code in
 - Create a ```requirements.txt``` file
-  - In the file paste ```requests==2.27.1```
+  - In the file paste ```pandas==1.5.1```
   - If unsure what version of libraries you are using, run the ```pip list``` command in your development environment.
 - Create a python file ```main.py```
   - Paste the code:
 ```
-import requests
+import pandas as pd
 
-r = requests.get('https://api.example.com/test')
-r.status_code 
+url = 'https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv'
+data = pd.read_csv(url)
+
+print(data.head())
 ```
 - Create a file named ```Dockerfile```
   - Paste the following in the Dockefile:
