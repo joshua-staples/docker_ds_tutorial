@@ -120,6 +120,7 @@ All of this can also be done from the Docker Desktop app. You can also remove th
 - Open the folder you want to code in
 - Create a ```requirements.txt``` file
   - In the file paste ```requests==2.27.1```
+  - If unsure what version of libraries you are using, run the ```pip list``` command in your development environment.
 - Create a python file ```main.py```
   - Paste the code:
 ```
