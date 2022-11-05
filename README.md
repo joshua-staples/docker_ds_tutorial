@@ -15,7 +15,7 @@ MacOS:
 
 Windows:
 - Open Powershell as admin
-- Run ```wsl --install`` in powershell
+- Run ```wsl --install``` in powershell
 - Install [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=us)
 - Open Windows Terminal
 - Download [Docker Desktop](https://www.docker.com/products/docker-desktop/)
