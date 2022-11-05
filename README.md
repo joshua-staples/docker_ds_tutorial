@@ -173,4 +173,38 @@ You can use the ```docker container ls -a``` command to view all containers (not
 
 ## Sharing Work
 
-You can either use ```docker save image_name``` for an image or ```docker export container_name``` for a container. This will output a tar (compressed) file to standard output, you can save this to a .tar file by piping ```docker export container_name > dk.container_name.latest.tar```. Then you can use ```docker load file``` or ```docker import file``` on a different machine.
+There are two ways to save and share a docker image. The first is using Docker Hub, and the second is creating a tarball. 
+
+__Using Docker Hub__
+
+* If you haven't already, creater a Docker Hub account
+* Run the following command in the terminal, and log in:
+```
+sudo docker login
+```
+* Build your image:
+```
+sudo docker build -t my-account/my-image:latest .
+```
+* Push your image to the Docker Hub:
+```
+sudo docker push my-account/my-image:latest
+```
+
+Your image is now stored on Docker Hub and accessible to others. Try pulling one created earlier to test it out:
+
+```
+docker run brytonpetersen/good_job
+```
+
+__Creating a Tarball__
+
+* Run the following:
+```
+sudo docker save my-account/my-image:latest > my-image.tar
+```
+
+* De-tar it using:
+```
+tar -xf my-image.tar
+```
