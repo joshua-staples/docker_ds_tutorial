@@ -60,6 +60,8 @@ Docker is a way of running containers with specific coding packages/libraries pr
 
 The major difference between a VM (vitual machine) and a Docker Container is that a container only runs one process, and once that process exits, the container exits. A VM can run many processes, as it is a virtual operating system. Because of this, a Docker container is very lightweight compared to a full VM.
 
+## Why Docker for Data Science
+
 ## Basic Workflow
 
 Build, run, push, pull.
