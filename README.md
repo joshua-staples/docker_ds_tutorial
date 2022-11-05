@@ -141,6 +141,10 @@ CMD [ "python", "./main.py" ]
 docker build -t user_name/python-script:latest .
 ```
 
+The ```-t``` flag allows for a name and optionally a tag in the 'name:tag' format.
+
+The ```.``` at the end says to use the current directory to find all the files to build the image.
+
 - You can test your new image by running:
 ```
 docker run user_name/python-script:latest
