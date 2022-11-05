@@ -136,6 +136,16 @@ ADD main.py /
 CMD [ "python", "./main.py" ]
 ```
 
+- Finally run this code:
+```
+docker build -t user_name/python-script:latest .
+```
+
+- You can test your new image by running:
+```
+docker run user_name/python-script:latest
+```
+
 ## Container
 
 If you have already created a container using ```docker run [*flags] image-name``` then you can start one by using the ```docker start container-name``` command. 
