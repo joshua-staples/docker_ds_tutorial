@@ -126,6 +126,16 @@ import requests
 r = requests.get('https://api.example.com/test')
 r.status_code 
 ```
+- Create a file named ```Dockerfile```
+- Paste the following in the Dockefile:
+```
+FROM python:3
+ADD requirements.txt /
+RUN pip install -r requirements.txt
+ADD main.py /
+CMD [ "python", "./main.py" ]
+```
+
 ## Container
 
 If you have already created a container using ```docker run [*flags] image-name``` then you can start one by using the ```docker start container-name``` command. 
