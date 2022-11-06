@@ -62,15 +62,20 @@ The major difference between a VM (vitual machine) and a Docker Container is tha
 
 ## Why Docker for Data Science
 
-Creating Reproducable code is one of the biggest problems people can face. The classic example of this is, "it works on my machine" which is caused by dependencies and need for the data used. As a data scientist you may be working on a project with team members in varies parts of the world or need to simply share insights with them . Unlike Jupyter notebooks, containers, through docker, enable one to sharing code or a model along with the data by creating an environment that enables everything to work. Another example, is publishing work done in a research paper. Containers will along to one to communicate work and allow for it to be auditted. All the individual has to do is install docker. 
+Creating Reproducable code is one of the biggest problems people can face. The classic example of this is, "it works on my machine" which is caused by dependencies and need for the data used. As a data scientist you may be working on a project with team members where you need to share your work. Unlike Jupyter notebooks, containers, through docker, enable one to share code or a model along with the data by creating an environment that enables everything to work. Another example, is publishing work done in a research paper. Containers will along to one to communicate work and allow for it to be auditted. All the individual has to do is install docker. 
 
-(Video 1)[https://www.youtube.com/watch?v=oO8n3y23b6M]
+[Video 1](https://www.youtube.com/watch?v=oO8n3y23b6M)
+Some of the benefits discussed: 
+- Seperate out projects
+- Create a container to onboard new employees
+- Easy to upgrade dependencies 
+  - build automated testing pipeline
 
-(Video 2)[https://www.youtube.com/watch?v=0qG_0CPQhpg&ab_channel=AbhishekThakur]
+[Video 2](https://www.youtube.com/watch?v=0qG_0CPQhpg&ab_channel=AbhishekThakur)
 
-(ML pipelines and kubernetes)[https://www.youtube.com/watch?v=lAAeJDcoHKY&t=734s&ab_channel=KrishNaik]
+[ML pipelines and kubernetes](https://www.youtube.com/watch?v=lAAeJDcoHKY&t=734s&ab_channel=KrishNaik)
 
-(Article explaining why docker is useful)[https://www.projectpro.io/article/docker-for-data-science-applications/584#:~:text=Dockers%20allow%20users%20to%20connect,can%20smoothly%20contribute%20to%20them.]
+[Article explaining why docker is useful](https://www.projectpro.io/article/docker-for-data-science-applications/584#:~:text=Dockers%20allow%20users%20to%20connect,can%20smoothly%20contribute%20to%20them.)
 
 "It allows them to smoothly scale and deploy machine learning and deep learning applications."
 
