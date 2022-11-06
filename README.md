@@ -62,27 +62,28 @@ Docker is a way of running containers with specific coding packages/libraries pr
 
 The major difference between a VM (vitual machine) and a Docker Container is that a container only runs one process, and once that process exits, the container exits. A VM can run many processes, as it is a virtual operating system. Because of this, a Docker container is very lightweight compared to a full VM.
 
-![image](https://user-images.githubusercontent.com/81722494/200153333-3dd1ac36-24dd-4bb6-86fd-d3a5b7e097de.png)
-
-Benefits
+### Benefits
 -	Lightweight: compared to VMs, it only has what it needs to run the application, whereas a VM has to copy full-scale OS. This results in less storage used and usually better performance
 -	Portability: easy to share applications with others
--	Solution to the problem, “It works on my machine…” 
+-	Solution to the problem: “It works on my machine…” 
 
-What are images and containers?
+### What are images and containers?
 Images are a copy or snapshot of a container. They are immutable, which means they can’t be change, and are read-only.
 Containers are isolated environments used to run and build applications.
 
-Analogy:
+Analogies:
 -	Images are like bags of sand, and containers are the sandbox
--	Images are like the blueprints that don’t change, and the containers materialize the blueprint
--	In the context of object oriented programming, images are like classes and containers are like objects that are instances of those classes. And you can have multiple instances of those classes, meaning you can have multiple containers created from the same image with their own unique data and state.
 
 ![](analogy_sandbox.png)
 
+-	Images are like the blueprints that don’t change, and the containers materialize the blueprint
+
 ![](analogy_blueprint.png)
 
+-	In the context of object oriented programming, images are like classes and containers are like objects that are instances of those classes. And you can have multiple instances of those classes, meaning you can have multiple containers created from the same image with their own unique data and state.
+
 ![](analogy_classes.png)
+
 
 ## Why Docker for Data Science
 
