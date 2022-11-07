@@ -71,9 +71,7 @@ The major difference between a VM (vitual machine) and a Docker Container is tha
 Images are a copy or snapshot of a container. They are immutable, which means they can’t be change, and are read-only.
 Containers are isolated environments used to run and build applications.
 
-Analogies:
-
-| Images = Sand bags<br>&<br>Containers = Sandbox | Image = Blueprint<br>&<br>Containers = Materialized Blueprint | Images = Classes<br>&<br>Containers = Class Instances |
+| Images = Sand bags<br>&<br>Containers = Sandbox | Images = Blueprint<br>&<br>Containers = Materialized Blueprint | Images = Classes<br>&<br>Containers = Class Instances |
 |:------------------------:|:--------------------------:|:------------------------:|
 | ![](analogy_sandbox.png) | ![](analogy_blueprint.png) | ![](analogy_classes.png) |
 
