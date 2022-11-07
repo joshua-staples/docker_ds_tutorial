@@ -206,6 +206,18 @@ The ```.``` at the end says to use the current directory to find all the files t
 docker run user_name/python-script:latest
 ```
 
+## Building an Image from Another Image
+
+Say you created a container from an image and then did a bunch of work, maybe even used new libraires that were not originally included in the image you ran, we can create a new image from our container using ```docker commit```
+
+```docker commit -p -a "author_here" -m "your_message" bd91ca3ca3c8 name_of_new_image```
+
+```-p``` pauses the container while commit command is building the new image.
+
+```-a``` allows you to supply author information of the new image.
+
+```-m``` allows you to add a comment just as in the Git.
+
 ## Container
 
 If you have already created a container using ```docker run [*flags] image-name``` then you can start one by using the ```docker start container-name``` command. 
