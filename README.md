@@ -218,6 +218,8 @@ Say you created a container from an image and then did a bunch of work, maybe ev
 
 ```-m``` allows you to add a comment just as in the Git.
 
+While the above code is useful for development, if publishing code to Dockerhub or sharing it is best practice to create a new directory with a ```requirements.txt``` and ```Dockerfile``` and build and image using ```docker build```
+
 ## Container
 
 If you have already created a container using ```docker run [*flags] image-name``` then you can start one by using the ```docker start container-name``` command. 
