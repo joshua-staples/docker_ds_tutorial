@@ -68,8 +68,9 @@ The major difference between a VM (vitual machine) and a Docker Container is tha
 -	Solution to the problem: “It works on my machine…” 
 
 ### What are images and containers?
-Images are a copy or snapshot of a container. They are immutable, which means they can’t be change, and are read-only.
-Containers are isolated environments used to run and build applications.
+Images are a read-only template with instructions to create a container. They are immutable, which means they can’t be changed.
+
+Containers are isolated environments used to run and build applications. They contain everything needed to run the application, so that it will work on any device and OS.
 
 | Images = Sand bags<br>&<br>Containers = Sandbox | Images = Blueprint<br>&<br>Containers = Materialized Blueprint | Images = Classes<br>&<br>Containers = Class Instances |
 |:------------------------:|:--------------------------:|:------------------------:|
@@ -240,3 +241,12 @@ sudo docker save my-account/my-image:latest > my-image.tar
 ```
 tar -xf my-image.tar
 ```
+
+## Sources:
+
+- [bag_image](https://cdn.w600.comps.canstockphoto.com/garbage-bag-icon-simple-style-image_csp74989470.jpg)
+-	[sandbox_image](https://media.istockphoto.com/vectors/sandbox-icon-black-sign-with-color-and-inverted-versions-vector-id868486692?k=20&m=868486692&s=612x612&w=0&h=54bwlDESpbgXfl9d9Fvj7Pd79SQnvMms9fngiMGuPsY=)
+-	[blueprint_image](https://graphicriver.img.customer.envatousercontent.com/files/167017373/blueprint_generator_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=fbd76f6dc754d0c57a1a87d8c0ce3dc3)
+-	[thumbsup_image](https://upload.wikimedia.org/wikipedia/commons/6/67/Facebook_logo_thumbs_up_like_transparent.png)
+-	[classes_image](https://math.hws.edu/javanotes/c5/instance-of-PlayerData.png)
+
