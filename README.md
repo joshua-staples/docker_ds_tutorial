@@ -78,7 +78,7 @@ Containers are isolated environments used to run and build applications. They co
 
 ## Why Docker for Data Science
 
-Creating Reproducable code is one of the biggest problems people can face. The classic example of this is, "it works on my machine" which is caused by dependencies and need for the data used. As a data scientist you may be working on a project with team members where you need to share your work. Unlike Jupyter notebooks, containers, through docker, enable one to share code or a model along with the data by creating an environment that enables everything to work. Another example, is publishing work done in a research paper. Containers will along to one to communicate work and allow for it to be auditted. All the individual has to do is install docker. 
+Creating Reproducable code is one of the biggest problems people can face. The classic example of this is, "it works on my machine" which is caused by dependencies and need for the data that was used. As a data scientist you may be working on a project with team members where you need to share your work. Unlike Jupyter notebooks, containers, through docker, enable one to share code or a model along with the data by creating an environment that enables everything to work. Another example would be publishing work done in a research paper. Containers will allow one to communicate work creating the ability for others to audit the work. All the individual has to do is install docker. 
 
 [Video 1](https://www.youtube.com/watch?v=oO8n3y23b6M)
 Some of the benefits discussed: 
@@ -92,8 +92,7 @@ Some of the benefits discussed:
 [ML pipelines and kubernetes](https://www.youtube.com/watch?v=lAAeJDcoHKY&t=734s&ab_channel=KrishNaik)
 
 [Article explaining why docker is useful](https://www.projectpro.io/article/docker-for-data-science-applications/584#:~:text=Dockers%20allow%20users%20to%20connect,can%20smoothly%20contribute%20to%20them.)
-
-"It allows them to smoothly scale and deploy machine learning and deep learning applications."
+- "It allows them to smoothly scale and deploy machine learning and deep learning applications."
 
 ## Basic Workflow
 
