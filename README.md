@@ -72,18 +72,10 @@ Images are a copy or snapshot of a container. They are immutable, which means th
 Containers are isolated environments used to run and build applications.
 
 Analogies:
--	Images are like bags of sand, and containers are the sandbox
 
-![](analogy_sandbox.png)
-
--	Images are like the blueprints that don’t change, and the containers materialize the blueprint
-
-![](analogy_blueprint.png)
-
--	In the context of object oriented programming, images are like classes and containers are like objects that are instances of those classes. And you can have multiple instances of those classes, meaning you can have multiple containers created from the same image with their own unique data and state.
-
-![](analogy_classes.png)
-
+Images are like bags of sand, and containers are the sandbox | Images are like the blueprints that don’t change, and the containers materialize the blueprint | In the context of object oriented programming, images are like classes and containers are like objects that are instances of those classes. And you can have multiple instances of those classes, meaning you can have multiple containers created from the same image with their own unique data and state
+:-----------------------:|:--------------------------:|:------------------------:
+![](analogy_sandbox.png) | ![](analogy_blueprint.png) | ![](analogy_classes.png)
 
 ## Why Docker for Data Science
 
