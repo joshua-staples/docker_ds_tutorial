@@ -119,6 +119,16 @@ docker images
 
 [Docker Build Docs](https://docs.docker.com/engine/reference/commandline/build/)
 
+### Pull
+
+The ```docker pull image_name``` command allows you to pull any prebuilt image from dockerhub. 
+
+This is useful if you already know the language your project will be in, as you can then just pull an image that contains that language. Popular images can be found by browsing [dockerhub](https://hub.docker.com/). 
+
+[Additional Reading](https://medium.com/@deepakshakya/beginners-guide-to-use-docker-build-run-push-and-pull-4a132c094d75)
+
+[Docker Pull Docs](https://docs.docker.com/engine/reference/commandline/pull/)
+
 ### Run
 
 We've already used the ```docker run``` command. This command runs the image specified. An image can either run a specified file it contains (a deployed app, like the examples above) or it can open a web-server for development, which is what we will be doing. 
@@ -130,16 +140,6 @@ We've already used the ```docker run``` command. This command runs the image spe
 If you want to make your own dockerhub account you can push any images your make using the ```docker push image_name``` command. (this is beyond the scope of this tutorial.)
 
 [Docker Push Docs](https://docs.docker.com/engine/reference/commandline/push/)
-
-### Pull
-
-The ```docker pull image_name``` command allows you to pull any prebuilt image from dockerhub. 
-
-This is useful if you already know the language your project will be in, as you can then just pull an image that contains that language. Popular images can be found by browsing [dockerhub](https://hub.docker.com/). 
-
-[Additional Reading](https://medium.com/@deepakshakya/beginners-guide-to-use-docker-build-run-push-and-pull-4a132c094d75)
-
-[Docker Pull Docs](https://docs.docker.com/engine/reference/commandline/pull/)
 
 ## All-Spark-Notebook Image
 
