@@ -73,7 +73,7 @@ Containers are isolated environments used to run and build applications.
 
 Analogies:
 
-| Images = sand bags & containers = sandbox | Image = blueprints & containers = materialized blueprint | Images = classes & containers = class instances |
+| Images = Sand bags<br>&<br>Containers = Sandbox | Image = Blueprint<br>&<br>Containers = Materialized Blueprint | Images = Classes<br>&<br>Containers = Class Instances |
 |:------------------------:|:--------------------------:|:------------------------:|
 | ![](analogy_sandbox.png) | ![](analogy_blueprint.png) | ![](analogy_classes.png) |
 
